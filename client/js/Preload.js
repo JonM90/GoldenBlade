@@ -17,6 +17,8 @@ GoldenGame.Preload.prototype = {
    //load game assets
   //  this.load.image('space', 'assets/images/space.png');
   this.load.image('space', '../assets/starfield.jpg');
+  this.load.image('BG', '../assets/mainBG.png');
+  this.load.image('2ndBG', '../assets/secondBG.png');
   this.load.image('levelOpen', '../resources/mass attacks/shinyball.png', 96, 400);
   this.load.image('levelLocked', '../resources/characters/wizball.png', 96, 400);
   this.load.bitmapFont('shortStack', '../resources/fonts/shortStack.png', 'resources/fonts/shortStack.xml')
