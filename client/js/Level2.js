@@ -201,8 +201,8 @@ GoldenGame.Level2.prototype = {
     turf.body.immovable = true;
     // turf.alpha = 0;
 
-    let types = ['wolf', 'centaur', 'glob'];
-    this.createEnemy(types[(Math.floor(Math.random() * 3))], 700, 500)
+    let types = ['wolf', 'centaur', 'glob', 'beelzebub'];
+    this.createEnemy(types[(Math.floor(Math.random() * 4))], 700, 500)
     this.createEnemy(types[(Math.floor(Math.random() * 3))], 1000, 500)
     this.createEnemy(types[(Math.floor(Math.random() * 3))], 1300, 500)
     this.createEnemy(types[(Math.floor(Math.random() * 3))], 1600, 500)

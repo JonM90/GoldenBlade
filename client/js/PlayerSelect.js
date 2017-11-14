@@ -85,7 +85,7 @@ GoldenGame.PlayerSelect.prototype = {
     if (isLocked === false) {
       console.log('levelN:', levelN)
       // let txt = this.game.add.bitmapText(20, 16, 'shortStack', 'Level: 1', 48);
-      let open = this.game.add.sprite(-35, 20, 'knight');
+      let open = this.game.add.sprite(-50, 20, 'knight');
       // open.scale.setTo(2.75, 2.75)
 
       // iconGroup.add(txt);

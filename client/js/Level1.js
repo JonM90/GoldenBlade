@@ -121,20 +121,20 @@ GoldenGame.Level1.prototype = {
     turf.body.immovable = true;
     turf.alpha = 0;
 
-    let types = ['beelzebub', 'glob'];
+    let types = ['beelzebub', 'glob', 'wolf'];
     this.createEnemy('glob');
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 700, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 800, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 1100, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 1400, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 1700, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 2000, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 2300, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 2600, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 2900, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 3200, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 3500, 600)
-    this.createEnemy(types[(Math.floor(Math.random() * 2))], 3800, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 700, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 800, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 1100, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 1400, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 1700, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 2000, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 2300, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 2600, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 2900, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 3200, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 3500, 600)
+    this.createEnemy(types[(Math.floor(Math.random() * 3))], 3800, 600)
     // this.createEnemy(types[(Math.floor(Math.random() * 2))], , y)
     this.animateActions();
 
